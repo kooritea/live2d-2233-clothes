@@ -1,5 +1,9 @@
 #!/bin/sh
+while true
+do
 node main.js
 git add -A
 git commit -m 'Auto update'
 git push
+sleep 2h
+done
