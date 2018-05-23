@@ -6,7 +6,7 @@ const saveClothes = require('./lib/saveClothes.js')
 const fs = require('fs')
 
 async function main(){
-  AppData.lastCheckTime()
+  //AppData.lastCheckTime()
   let closet = await bilibili.getAllClothesName()//设置了延迟查询
   let haveNewClothes = saveClothes.contrastCloset(closet)
   if(haveNewClothes){
