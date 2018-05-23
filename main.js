@@ -11,6 +11,7 @@ async function main(){
   let haveNewClothes = saveClothes.contrastCloset(closet)
   if(haveNewClothes){
     //下载了新衣服，准备提交
+    AppData.lastCheckTime()
     let clothesList = ''
     for(let clothes of AppData.readData('closet')){
       clothesList +=`${clothes}\n\n`
