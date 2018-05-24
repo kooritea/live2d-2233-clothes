@@ -2,7 +2,7 @@
 
 > 一个自动爬取B站直播间2233衣服的项目
 
-## 最后发现新衣服时间 2018/05/24 20:14:30
+## 最后发现新衣服时间 2018/05/24 22:15:00
 
 ## 列表
 
@@ -25,6 +25,8 @@ closet.2017.summer.super
 closet.2017.cba-super
 
 closet.2017.newyear
+
+closet.2017.summer.normal
 
 
 
