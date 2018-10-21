@@ -5,9 +5,18 @@ const bilibili = require('./lib/bilibili.js')
 const saveClothes = require('./lib/saveClothes.js')
 const fs = require('fs')
 
-async function main(){
+async function main(ClothesName){
   //AppData.lastCheckTime()
-  let closet = await bilibili.getAllClothesName()//设置了延迟查询
+  let closet = []
+  if(!ClothesName){
+    closet = await bilibili.getAllClothesName()//设置了延迟查询
+  } else {
+    closet.push({
+      host: 's1.hdslb.com',
+      ClothesName,
+      path: 'bfs/static/blive/live-assets/haruna'
+    })
+  }
   let haveNewClothes = saveClothes.contrastCloset(closet)
   if(haveNewClothes){
     //下载了新衣服，准备提交
