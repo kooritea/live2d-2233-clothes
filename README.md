@@ -2,7 +2,7 @@
 
 > 一个自动爬取B站直播间2233衣服的项目
 
-## 最后发现新衣服时间 2018/10/21 23:42:32
+## 最后发现新衣服时间 2019/08/09 09:31:02
 
 ## 列表
 
@@ -37,6 +37,8 @@ closet.2017.tomo-bukatsu.high
 closet.2018.bls-summer
 
 closet.2018.bls-winter
+
+closet.2019.summer
 
 
 
