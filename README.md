@@ -40,6 +40,12 @@ closet.2018.bls-winter
 
 closet.2019.summer
 
+closet.2019.magic
+
+closet.2019.magic2
+
+closet.2019.bls
+
 
 
 [保存地址](./dist)
